@@ -10,7 +10,11 @@ a {
 :root{
   --primary-text-color: #212121;
   --primary-white-color: white;
-  --accent-color: #2196f3;
+  --accent-color: #2196f3;  
+  --secondry-background-color:#F5F4FA;
+  --button_focused_color:#188CE8;
+  --transition--duration:250ms;
+  --transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container { 
    
@@ -197,8 +201,7 @@ a.contacts__mail {
   line-height: 1.36;
   text-align: center;
   display: block;  
-  letter-spacing: 0.06em; 
-  display: block;
+  letter-spacing: 0.06em;  
   text-transform: uppercase;
   color: var(--primary-white-color); 
   margin-bottom: 30px;
@@ -661,16 +664,13 @@ border-bottom: 1px solid #ECECEC;
   transform: translateY(0);
 }
 
-.pportfolio__link {
+.portfolio__link {
   display: block;
 }
 
 .portfolio__link:focus,
 .portfolio__link:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-.img-block{
-  display: block;
 }
 
 .portfolio__thumb{
@@ -736,12 +736,12 @@ border-bottom: 1px solid #ECECEC;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
   visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.backdrop .is-hidden{
+.backdrop.is-hidden{
   opacity: 0;
   pointer-events: none;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.backdrop .is-hidden .modal{
+.backdrop.is-hidden .modal{
   transform: translate(-50%, -50%) scale(0.9);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -930,6 +930,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     line-height: 1.87; 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    
 }
 .modal__button:hover,
 .modal__button:focus{

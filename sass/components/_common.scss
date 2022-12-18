@@ -1,0 +1,24 @@
+.container {
+
+    width: 1200px;
+    margin: 0px auto;
+    padding: 0px 15px;
+    /* outline: 2px solid red;  */
+}
+body {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    font-family: "Roboto", sans-serif;
+    background: white;
+}
+
+a {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
