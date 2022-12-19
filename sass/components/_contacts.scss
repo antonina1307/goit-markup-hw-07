@@ -1,6 +1,6 @@
 .contacts{
   list-style: none;
-  @extend %flex-align;
+  @extend %flex__align;
   margin-left:auto ;
 }
 .contacts__item {
@@ -26,7 +26,7 @@
 }
 a.contacts__tel,
 a.contacts__mail {
- @extend %flex-align;
+ @extend %flex__align;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;

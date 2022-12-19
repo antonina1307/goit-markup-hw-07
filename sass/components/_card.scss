@@ -10,10 +10,7 @@
 }
 
 .card__title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
+   @extend %card__title;
     color: #212121;
     margin-top: 30px;
     margin-bottom: 10px;
@@ -21,9 +18,7 @@
 }
 
 .card__text {
-    font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
+    @extend %card__text;
     color: #757575;
     text-align: center;
     margin-bottom: 16px;

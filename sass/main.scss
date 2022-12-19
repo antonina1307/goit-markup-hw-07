@@ -17,7 +17,16 @@
 @import './components/join';
 @import './components/backdrop';
 @import './components/form';
-@import './components/filter';
+@import './base/normalize';
+@import './base/hidden';
+@import './utils/variables';
 @import './components/portfolio';
-@import './components/modal';
+@import './components/header';
+@import './components/navigation';
+@import './components/contacts';
+@import './components/filter';
+@import './utils/font';
+@import './components/footer';
+
+
 

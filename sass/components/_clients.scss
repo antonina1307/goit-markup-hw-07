@@ -3,12 +3,8 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.clients__title{
-   
-  font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;    
-    letter-spacing: 0.03em; 
+.clients__title{   
+  @extend %clients__title; 
     text-align: center; 
     color: #212121;
     margin-bottom: 50px;   

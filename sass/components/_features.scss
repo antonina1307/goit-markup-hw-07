@@ -9,7 +9,7 @@ display: flex;
   width: 270px; 
 }
 .features__thumb { 
-   @extend %flex-align;
+   @extend %flex__align;
   justify-content: center;  
   background-color: #F5F4FA;
   margin-bottom: 30px;
@@ -25,18 +25,13 @@ display: flex;
   margin-right: 30px;
 }
 .features__title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @extend %features__title;
   text-transform: uppercase;
   color: #212121;
   margin-bottom: 10px;
  
 }
 .features__text {  
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
+  @extend %features__text;
   color: #757575;
 }

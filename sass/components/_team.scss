@@ -2,11 +2,8 @@
 background: #F5F4FA;
 }
 .team__title {
-  font-weight: 700 ;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
+  @extend %team__title;
+   text-align: center;
   color: #212121;
   margin-bottom: 50px; 
 }

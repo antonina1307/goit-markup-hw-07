@@ -3,11 +3,8 @@
   padding-top: 0;
 }
 .work__title{
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+ @extend %work__title;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 50px; 
 }
@@ -24,7 +21,7 @@
 }
 .work__thumb{ 
   justify-content: center;
-  @extend %flex-align;
+  @extend %flex__align;
   position: absolute;
  
   width: 370px;
@@ -33,11 +30,8 @@
   background: rgba(47, 48, 58, 0.8); 
   left:0;
   bottom: 0;   
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  @extend %work__thumb;
   text-align: center;
-  letter-spacing: 0.03em;
   text-transform: uppercase;  
 }
 .work__img {

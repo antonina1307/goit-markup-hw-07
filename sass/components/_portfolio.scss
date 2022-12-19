@@ -39,7 +39,7 @@
   position: absolute;
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 400;
+ font-weight: 400;
   font-size: 18px;
   line-height: 1.55;  
   letter-spacing: 0.03em;  
@@ -53,7 +53,7 @@
   top: 0;
   left: 0;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transform: translateY(100%);
+  transform: translateY(110%);
 
 }
 
@@ -66,17 +66,11 @@
 }
 
 .portfolio__title {  
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
+ @extend %portfolio__title ;
   color: #212121;
-  letter-spacing: 0.06em;
   margin-bottom: 4px;  
 }
 .portfolio__text{
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.9;
-  color: #757575;
-  letter-spacing: 0.03em;  
+  @extend %portfolio__text;
+  color: #757575;  
 }
